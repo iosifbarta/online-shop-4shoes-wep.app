@@ -196,12 +196,12 @@
 
 
 	// Loading page
-	var loaderPage = function() {
+	let loaderPage = function() {
 		$(".colorlib-loader").fadeOut("slow");
 	};
 
 
-	var sliderMain = function() {
+	let sliderMain = function() {
 		
 	  	$('#colorlib-hero .flexslider').flexslider({
 			animation: "fade",
